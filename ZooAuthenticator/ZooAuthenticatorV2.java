@@ -26,10 +26,17 @@ public class ZooAuthenticator {
         boolean containsPassword = false; //booleans to fight infinite loops
         boolean containsUsername = false;
 		
-		System.out.println("Enter username:");
+		System.out.println("Enter username or type 'quit' to exit");
 		userName = scnr.nextLine();
-        if (line.contains.(userName){
+		containsUsername = indexOf
+        if (userName.toLowerCase().contains("quit"){
 			
+		}			
+		elseif (Text.indexOf(userName) > 0){
+			while (loginAttempts < 3) {
+				System.out.println("Enter password");
+				userPassword = scnr.nextLine();
+				
 		}
         while (loginAttempts < 3) { //Limits login attempts to 3
             System.out.println("Enter username");
