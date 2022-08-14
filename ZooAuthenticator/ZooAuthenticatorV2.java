@@ -28,11 +28,11 @@ public class ZooAuthenticator {
 		
 		System.out.println("Enter username or type 'quit' to exit");
 		userName = scnr.nextLine();
-		containsUsername = indexOf
+		containsUsername = Text.indexOf(userName);
         if (userName.toLowerCase().contains("quit"){
-			
+			loginAttempts = 3
 		}			
-		elseif (Text.indexOf(userName) > 0){
+		else if (Text.indexOf(userName) > 0){
 			while (loginAttempts < 3) {
 				System.out.println("Enter password");
 				userPassword = scnr.nextLine();

@@ -1,0 +1,1 @@
+start "cmd.exe" ""mongosh "mongodb+srv://cluster0.oyhcf3k.mongodb.net/myFirstDatabase" --apiVersion 1 --username aswarr --password New123""
